@@ -3,9 +3,10 @@ name = "mcp-wiki"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dependencies = [
     "beautifulsoup4==4.12.3",
+    "deprecated>=1.2.18",
     "google-adk==0.3.0",
     "html2text==2024.2.26",
     "mcp[cli]==1.5.0",
