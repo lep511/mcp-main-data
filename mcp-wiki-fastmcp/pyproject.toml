@@ -1,0 +1,13 @@
+[project]
+name = "mcp-wiki-fastmcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4==4.12.3",
+    "fastmcp>=2.11.2",
+    "html2text==2024.2.26",
+    "mcp[cli]>=1.12.4",
+    "requests>=2.32.4",
+]
